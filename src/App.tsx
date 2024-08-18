@@ -68,7 +68,7 @@ function App() {
           <div className="text" ref={textRef} onMouseEnter={handleTextHover}>
             <p>
               {Array.from(
-                "Приветствую меня зовут Роман и я Frontend/Fullstack-разработчик с 3-х летним опытом  работы.      Мои основные технологии - React и TypeScript. За время работы в IT сталкивался с самыми разными кейсами и всегда был готов брать на  себя тяжелые задачи."
+                "Приветствую меня зовут Роман, и я Frontend/Fullstack-разработчик с 3-х летним опытом  работы.     Мои основные технологии - React и TypeScript. За время работы в  IT сталкивался с самыми разными кейсами и всегда был готов брать на  себя тяжелые задачи."
               ).map((char, index) => (
                 <span key={index}>{char}</span>
               ))}
@@ -102,14 +102,14 @@ function App() {
           </div>
         </section>
 
-        <div className="ST" title="404">
+        <div className="ST" id="sgg"title="404">
           MY LINKS
         </div>
         <footer className="footer">
           <div className="contact-info">
             <ul>
               <li>Email: lbodriy@mail.com</li>
-              <li>Телефон: +7 (985) 586-53-25</li>
+              <li>Телефон: +7 (918) 586-53-25</li>
               <li>
                 Telegram:{" "}
                 <a

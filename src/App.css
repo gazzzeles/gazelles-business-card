@@ -540,6 +540,8 @@ section {
 .text span {
   display: inline-block;
   min-width: 1ch; 
+  word-break: normal; /* Запрещает разрыв слов */
+  overflow-wrap: break-word; 
 }
 
 .text.animate span {
@@ -622,6 +624,8 @@ div:after{
   max-width: 300px;
   max-height: 300px;
   overflow: hidden;
+  word-break: normal; /* Запрещает разрыв слов */
+  overflow-wrap: break-word;
 }
 .bio {
   border-top: 3px solid #ef8300;
@@ -634,6 +638,7 @@ div:after{
   margin-bottom: 40px;
   word-wrap: normal; /* Запрещает разрыв слов */
   white-space: pre-wrap; /* Переносит текст на новую строку только на пробелах */
+  
 }
 .photo img {
   padding-top: 20px;
@@ -680,6 +685,9 @@ div:after{
 
 
 @media (max-width: 768px) {
+  .text{
+    max-width: 300px;
+  }
   .header {
     font-size: 48px; 
   }
@@ -737,4 +745,7 @@ div:after{
   border-bottom-right-radius: 5px;
   text-shadow:1px 3px 5px 5px #ef8300 ;
   
+}
+#sgg{
+  margin-top: 50px;
 }
