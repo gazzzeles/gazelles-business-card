@@ -618,26 +618,22 @@ div:after{
   }
 }
 
-.text{
-  max-width: 260px;
+.text {
+  max-width: 300px;
   max-height: 300px;
   overflow: hidden;
-  
-  
 }
-.bio{
-  border-top:3px solid #ef8300;
+.bio {
+  border-top: 3px solid #ef8300;
   border-radius: 45px;
   display: flex;
-  
   justify-content: center;
- 
-  
- 
- overflow: hidden;
- padding-bottom: 30px;
- margin-top: 30px;
-margin-bottom: 40px;
+  overflow: hidden;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  word-wrap: normal; /* Запрещает разрыв слов */
+  white-space: pre-wrap; /* Переносит текст на новую строку только на пробелах */
 }
 .photo img {
   padding-top: 20px;
